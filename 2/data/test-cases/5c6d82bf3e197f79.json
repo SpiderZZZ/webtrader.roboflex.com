@@ -1,0 +1,58 @@
+{
+  "uid" : "5c6d82bf3e197f79",
+  "name" : "should does not login with bad credentials",
+  "fullName" : "WebTrader Login page.should does not login with bad credentials",
+  "historyId" : "9314b3509ba3fcb9a1bd5b228b03b168",
+  "time" : {
+    "start" : 1619296769592,
+    "stop" : 1619296772923,
+    "duration" : 3331
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should does not login with bad credentials"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5c6d82bf3e197f79.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

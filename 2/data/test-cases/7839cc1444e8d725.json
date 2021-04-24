@@ -1,0 +1,82 @@
+{
+  "uid" : "7839cc1444e8d725",
+  "name" : "should register with valid data and login after",
+  "fullName" : "WebTrader Registration page.should register with valid data and login after",
+  "historyId" : "ea891e5255993b6beef335539a658646",
+  "time" : {
+    "start" : 1619296760690,
+    "stop" : 1619296766379,
+    "duration" : 5689
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.registrationForm.$ is not a function",
+  "statusTrace" : "TypeError: this.registrationForm.$ is not a function\n                    at RegistrationPage.get inputUserEmail [as inputUserEmail] (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/pageobjects/registration.page.ts:12:38)\n                    at RegistrationPage.fillRegistrationForm (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/pageobjects/registration.page.ts:47:27)\n                    at Context.<anonymous> (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/specs/registration.e2e.ts:23:32)\n                    at Context.executeAsync (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.registrationForm.$ is not a function",
+    "statusTrace" : "TypeError: this.registrationForm.$ is not a function\n                    at RegistrationPage.get inputUserEmail [as inputUserEmail] (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/pageobjects/registration.page.ts:12:38)\n                    at RegistrationPage.fillRegistrationForm (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/pageobjects/registration.page.ts:47:27)\n                    at Context.<anonymous> (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/specs/registration.e2e.ts:23:32)\n                    at Context.executeAsync (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0b5a3421d4aaa87",
+      "name" : "Screenshot",
+      "source" : "a0b5a3421d4aaa87.png",
+      "type" : "image/png",
+      "size" : 126144
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with valid data and login after"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "7839cc1444e8d725.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

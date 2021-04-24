@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "this.registrationForm.$ is not a function",
+      "children" : [ {
+        "name" : "should register with valid data and login after",
+        "uid" : "7839cc1444e8d725",
+        "parentUid" : "d7b7088700a842b7404f5d075f171d3c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619296760690,
+          "stop" : 1619296766379,
+          "duration" : 5689
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "d7b7088700a842b7404f5d075f171d3c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
