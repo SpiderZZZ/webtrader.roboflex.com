@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Sat Apr 24 20:31:33 GMT 2021","Sat Apr 24 20:31:39 GMT 2021","5549","","WebTrader Registration page","","WebTrader Registration page","""after each"" hook for WebTrader Registration page","""after each"" hook for WebTrader Registration page",""
+"broken","Sat Apr 24 20:31:33 GMT 2021","Sat Apr 24 20:31:42 GMT 2021","8814","","WebTrader Login page","","WebTrader Login page","""after each"" hook for WebTrader Login page","""after each"" hook for WebTrader Login page",""

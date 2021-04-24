@@ -1,0 +1,39 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "this.logoutLink.isClickable is not a function",
+      "children" : [ {
+        "name" : "\"after each\" hook for WebTrader Login page",
+        "uid" : "b189ba8c7f5b3ea5",
+        "parentUid" : "ffd326c2e828634ab7b89d0105ba33d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619296293965,
+          "stop" : 1619296302779,
+          "duration" : 8814
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      }, {
+        "name" : "\"after each\" hook for WebTrader Registration page",
+        "uid" : "45c602ef93678edd",
+        "parentUid" : "ffd326c2e828634ab7b89d0105ba33d8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619296293973,
+          "stop" : 1619296299522,
+          "duration" : 5549
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "ffd326c2e828634ab7b89d0105ba33d8"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}

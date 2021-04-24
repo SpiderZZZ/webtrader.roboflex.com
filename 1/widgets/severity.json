@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b189ba8c7f5b3ea5",
+  "name" : "\"after each\" hook for WebTrader Login page",
+  "time" : {
+    "start" : 1619296293965,
+    "stop" : 1619296302779,
+    "duration" : 8814
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "45c602ef93678edd",
+  "name" : "\"after each\" hook for WebTrader Registration page",
+  "time" : {
+    "start" : 1619296293973,
+    "stop" : 1619296299522,
+    "duration" : 5549
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

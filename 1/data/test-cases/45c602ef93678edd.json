@@ -1,0 +1,88 @@
+{
+  "uid" : "45c602ef93678edd",
+  "name" : "\"after each\" hook for WebTrader Registration page",
+  "fullName" : "WebTrader Registration page.\"after each\" hook for WebTrader Registration page",
+  "historyId" : "f3f51bdc816e95712ebf8918bd2ed799",
+  "time" : {
+    "start" : 1619296293973,
+    "stop" : 1619296299522,
+    "duration" : 5549
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "this.logoutLink.isClickable is not a function",
+  "statusTrace" : "TypeError: this.logoutLink.isClickable is not a function\n                    at SecurePage.logoutIfVisible (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/pageobjects/page.ts:22:41)\n                    at Context.<anonymous> (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/specs/registration.e2e.ts:16:26)\n                    at Context.executeAsync (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "this.logoutLink.isClickable is not a function",
+    "statusTrace" : "TypeError: this.logoutLink.isClickable is not a function\n                    at SecurePage.logoutIfVisible (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/pageobjects/page.ts:22:41)\n                    at Context.<anonymous> (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/test/specs/registration.e2e.ts:16:26)\n                    at Context.executeAsync (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:136:25)\n                    at Context.testFrameworkFnWrapper (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/test-framework/testFnWrapper.js:45:32)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "11921b327f2cd9f1",
+      "name" : "Screenshot",
+      "source" : "11921b327f2cd9f1.png",
+      "type" : "image/png",
+      "size" : 126144
+    }, {
+      "uid" : "81c3f3b1dd41c726",
+      "name" : "Screenshot",
+      "source" : "81c3f3b1dd41c726.png",
+      "type" : "image/png",
+      "size" : 126144
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after each\" hook for WebTrader Registration page"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "45c602ef93678edd.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}
