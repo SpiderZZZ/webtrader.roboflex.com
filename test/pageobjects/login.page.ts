@@ -17,16 +17,26 @@ class LoginPage extends Page {
         return $('input[class="password__field password__field_mode_password"]')
     }
 
+    get errorBadPassword () 
+    {
+        return $('//div[@class="err"]//div[text()="Wrong login/password"]')
+    }
+
     get btnSubmit () 
     {
         return $('div[class="button button_type_brand"]')
     }
 
-    login (username: string, password: string) 
+    get btnRegistration()
     {
-        this.inputUsername.setValue(username)
-        this.inputPassword.setValue(password)
-        this.btnSubmit.click();
+        return $('div[class="button button_type_quick-demo"]')
+    }
+
+    async login (username: string, password: string) 
+    {
+        await (await this.inputUsername).setValue(username)
+        await (await this.inputPassword).setValue(password)
+        await (await this.btnSubmit).click();
     }
 
     /**
