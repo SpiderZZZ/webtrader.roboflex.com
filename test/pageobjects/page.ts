@@ -8,7 +8,7 @@ export default class Page {
     {
         return $('div[class="user-info__logout"]')
     }
-    
+
     /**
     * Opens a sub page of the page
     * @param path path of the sub page (e.g. /path/to/page.html)
@@ -19,9 +19,9 @@ export default class Page {
 
     async logoutIfVisible()
     {
-        if(await (await this.logoutLink.isClickable()))
+        if(await (await this.logoutLink).isClickable())
         {
-            await (await this.logoutLink.click())
+            await (await this.logoutLink).click()
         }
     }
 }
