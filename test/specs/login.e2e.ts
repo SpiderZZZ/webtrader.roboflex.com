@@ -20,7 +20,7 @@ describe('WebTrader Login page', () => {
     });
 
     it('should does not login with bad credentials', async () => {
-        await LoginPage.login(`${cryptoRandomString({length: 15})}@mail.cy`, cryptoRandomString({length: 10, type: 'alphanumeric'}));
+        await LoginPage.login(`${cryptoRandomString({length: 15})}@mail.cy`, `${cryptoRandomString({length: 10, charachters: 'alphanumeric'})}${cryptoRandomString({length:6,type : 'numeric'})}`); //добавляем цифру специально т.к. бывает рандом без цифры
         await expect(await LoginPage.errorBadPassword).toBeVisible()
         await expect(await SecurePage.chart).not.toBeExisting();
     });

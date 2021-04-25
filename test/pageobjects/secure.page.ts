@@ -19,27 +19,42 @@ class SecurePage extends Page {
 
     get demoAccountModalTitle()
     {
-        return this.demoAccountModal.$('div[class="modal-window__title"]')
+        return $('span[class="modal-window__title"]')
     }
 
     get demoAccountModalUsername()
     {
-        return this.demoAccountModal.$('div[class="demo-account-details__user-name"]').$('div[class="text"]')
+        return $('//div[@class="demo-account-details__user-name"]//div[@class="text"]')
     }
 
     get demoAccountModalUserEmail()
     {
-        return this.demoAccountModal.$('div[class="demo-account-details__user-email"]').$('div[class="text"]')
+        return $('//div[@class="demo-account-details__user-email"]//div[@class="text"]')
     }
 
     get demoAccountModalPassword()
     {
-        return this.demoAccountModal.$('div[class="demo-account-details__acc-pass"]').$('div[class="text"]')
+        return $('//div[@class="demo-account-details__user-pass"]//div[@class="text"]')
     }
 
     get demoAccountCloseButton()
     {
-        return this.demoAccountModal.$('div[class="demo-account-details__close"]').$('div[class="button button_type_brand"]')
+        return $('//div[@class="demo-account-details__close"]//div[@class="button button_type_brand"]')
+    }
+
+    get tourModalTitle()
+    {
+        return $('span[class="tour-window__title"]')
+    }
+
+    get tourModalTotalStepsCount()
+    {
+        return $('div[class="tour-window__total-steps"]')
+    }
+
+    get tourModalWindowCloseBtn()
+    {
+        return $('span[class="tour-window__close"]')
     }
 }
 

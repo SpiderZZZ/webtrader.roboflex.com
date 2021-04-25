@@ -18,14 +18,14 @@ describe('WebTrader Registration page', () => {
 
     it('should register with valid data and login after', async () => {
         const userEmail = `${cryptoRandomString({length: 15})}@mail.cy`
-        const userFirstname = cryptoRandomString({length: 10})
-        const userSurname = cryptoRandomString({length: 12})
+        const userFirstname = cryptoRandomString({length: 10, characters : 'abcderfgh'})
+        const userSurname = cryptoRandomString({length: 12, characters : 'zjkqwegla'})
         await RegistrationPage.fillRegistrationForm
         (
             {
                 userMail : userEmail,
                 userFirstName : userFirstname,
-                coutryName : "Russia",
+                coutryWithCodeName : "Haiti: HT +509",
                 userPhone : cryptoRandomString({length: 10, type: 'numeric'}),
                 userSurname : userSurname
             }
@@ -36,10 +36,15 @@ describe('WebTrader Registration page', () => {
         await expect(await SecurePage.demoAccountModalUserEmail).toHaveText(userEmail)
         const userPassword = await (await SecurePage.demoAccountModalPassword).getText()
         await (await SecurePage.demoAccountCloseButton).click()
-        await expect(await SecurePage.chart).toBeExisting();
 
-        await SecurePage.logoutIfVisible()
-        LoginPage.open()
+        await expect(await SecurePage.tourModalTitle).toHaveText("RoboForex WebTrader Overview")
+        await expect(await SecurePage.tourModalTotalStepsCount).toHaveText("14")
+        await (await SecurePage.tourModalWindowCloseBtn).click()
+
+        await expect(await SecurePage.chart).toBeVisible();
+        await expect(SecurePage.logoutLink).toBeClickable()
+        await (await SecurePage.logoutLink).click()
+        await LoginPage.open()
         await LoginPage.login(userEmail, userPassword);
         await expect(await SecurePage.chart).toBeExisting();
     });
