@@ -1,0 +1,31 @@
+[ {
+  "uid" : "58ed39fceafceeb0",
+  "name" : "\"after each\" hook for WebTrader Registration page",
+  "time" : {
+    "start" : 1619328570313,
+    "stop" : 1619328595093,
+    "duration" : 24780
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "fb107ee080b6f4c",
+  "name" : "should does not login with bad credentials",
+  "time" : {
+    "start" : 1619328579343,
+    "stop" : 1619328583313,
+    "duration" : 3970
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b581cf9c33d837f",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1619328570345,
+    "stop" : 1619328579343,
+    "duration" : 8998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

@@ -1,0 +1,78 @@
+{
+  "uid" : "1b581cf9c33d837f",
+  "name" : "should login with valid credentials",
+  "fullName" : "WebTrader Login page.should login with valid credentials",
+  "historyId" : "7983242f8cb02df9c4c30e6bec5e83be",
+  "time" : {
+    "start" : 1619328570345,
+    "stop" : 1619328579343,
+    "duration" : 8998
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "708eaab297fded41",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/2//#testresult/708eaab297fded41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619296760728,
+          "stop" : 1619296769591,
+          "duration" : 8863
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1b581cf9c33d837f.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

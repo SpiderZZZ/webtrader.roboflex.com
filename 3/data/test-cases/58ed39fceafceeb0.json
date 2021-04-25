@@ -1,0 +1,85 @@
+{
+  "uid" : "58ed39fceafceeb0",
+  "name" : "\"after each\" hook for WebTrader Registration page",
+  "fullName" : "WebTrader Registration page.\"after each\" hook for WebTrader Registration page",
+  "historyId" : "f3f51bdc816e95712ebf8918bd2ed799",
+  "time" : {
+    "start" : 1619328570313,
+    "stop" : 1619328595093,
+    "duration" : 24780
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <div class=\"user-info__logout\">...</div> is not clickable at point (1880, 16). Other element would receive the click: <div class=\"tour-window__curtain\" style=\"height: 100%;\"></div>\n                  (Session info: chrome=90.0.4430.72)",
+  "statusTrace" : "element click intercepted: element click intercepted: Element <div class=\"user-info__logout\">...</div> is not clickable at point (1880, 16). Other element would receive the click: <div class=\"tour-window__curtain\" style=\"height: 100%;\"></div>\n                  (Session info: chrome=90.0.4430.72)\n                    at Object.getErrorFromResponseBody (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/webdriver/build/utils.js:189:12)\n                    at WebDriverRequest._request (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/webdriver/build/request.js:168:31)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at Element.wrapCommandFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at Element.wrapCommandFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at Element.wrapCommandFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at Element.wrapCommandFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:78:29)\n                    at Element.elementErrorHandlerCallbackFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/webdriverio/build/middlewares.js:23:32)\n                    at Element.wrapCommandFn (/home/runner/work/webtrader.roboflex.com/webtrader.roboflex.com/node_modules/@wdio/utils/build/shim.js:78:29)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"after each\" hook for WebTrader Registration page"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 2,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "45c602ef93678edd",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/1//#testresult/45c602ef93678edd",
+        "status" : "broken",
+        "statusDetails" : "this.logoutLink.isClickable is not a function",
+        "time" : {
+          "start" : 1619296293973,
+          "stop" : 1619296299522,
+          "duration" : 5549
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "58ed39fceafceeb0.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

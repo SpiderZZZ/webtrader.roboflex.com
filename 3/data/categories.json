@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "element click intercepted: Element <div class=\"user-info__logout\">...</div> is not clickable at point (1880, 16). Other element would receive the click: <div class=\"tour-window__curtain\" style=\"height: 100%;\"></div>\n                  (Session info: chrome=90.0.4430.72)",
+      "children" : [ {
+        "name" : "\"after each\" hook for WebTrader Registration page",
+        "uid" : "58ed39fceafceeb0",
+        "parentUid" : "e74609dc072cc4b75698e6cbb7dc7cf4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1619328570313,
+          "stop" : 1619328595093,
+          "duration" : 24780
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "e74609dc072cc4b75698e6cbb7dc7cf4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
+  "name" : "categories"
+}
