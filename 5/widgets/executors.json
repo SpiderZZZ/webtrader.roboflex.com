@@ -1,0 +1,10 @@
+[ {
+  "name" : "GitHub Actions",
+  "type" : "github",
+  "url" : "https://SpiderZZZ.github.io/webtrader.roboflex.com",
+  "buildOrder" : 5,
+  "buildName" : "GitHub Actions Run #782079664",
+  "buildUrl" : "https://github.com/SpiderZZZ/webtrader.roboflex.com/actions/runs/782079664",
+  "reportName" : "Allure Report with history",
+  "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/5/"
+} ]

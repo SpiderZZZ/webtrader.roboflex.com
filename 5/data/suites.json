@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "WebTrader Registration page",
+    "children" : [ {
+      "name" : "should register with valid data and login after",
+      "uid" : "a019ed99dee12c16",
+      "parentUid" : "8b507e9255bfbd7289eb05b9af641ae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619329405496,
+        "stop" : 1619329423004,
+        "duration" : 17508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    } ],
+    "uid" : "8b507e9255bfbd7289eb05b9af641ae6"
+  }, {
+    "name" : "WebTrader Login page",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "9b6d15a8e7f66374",
+      "parentUid" : "a0610ef5eb5e79d66725e454ff7ce3a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619329405577,
+        "stop" : 1619329412489,
+        "duration" : 6912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    }, {
+      "name" : "should does not login with bad credentials",
+      "uid" : "65b87c7883d8351a",
+      "parentUid" : "a0610ef5eb5e79d66725e454ff7ce3a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619329412489,
+        "stop" : 1619329417620,
+        "duration" : 5131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-90.0.4430.72" ]
+    } ],
+    "uid" : "a0610ef5eb5e79d66725e454ff7ce3a7"
+  } ],
+  "name" : "suites"
+}

@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "should register with valid data and login after",
+    "uid" : "a019ed99dee12c16",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619329405496,
+      "stop" : 1619329423004,
+      "duration" : 17508
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.72" ]
+  }, {
+    "name" : "should login with valid credentials",
+    "uid" : "9b6d15a8e7f66374",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619329405577,
+      "stop" : 1619329412489,
+      "duration" : 6912
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.72" ]
+  }, {
+    "name" : "should does not login with bad credentials",
+    "uid" : "65b87c7883d8351a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1619329412489,
+      "stop" : 1619329417620,
+      "duration" : 5131
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-90.0.4430.72" ]
+  } ],
+  "name" : "behaviors"
+}
