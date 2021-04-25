@@ -36,7 +36,7 @@ describe('WebTrader Registration page', () => {
         await expect(await SecurePage.tourModalTotalStepsCount).toHaveText("14")
         await (await SecurePage.tourModalWindowCloseBtn).click()
 
-        await expect(await SecurePage.chart).not.toBeVisible();
+        await expect(await SecurePage.chart).toBeVisible();
         await expect(SecurePage.logoutLink).toBeClickable()
         await (await SecurePage.logoutLink).click()
         await LoginPage.open()
