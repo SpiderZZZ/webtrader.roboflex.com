@@ -1,4 +1,3 @@
-const { join } = require('path');
 const { AllureReporter } = require('@wdio/allure-reporter')
 
 exports.config = {
@@ -53,13 +52,6 @@ exports.config = {
     // Sauce Labs platform configurator - a great tool to configure your capabilities:
     // https://docs.saucelabs.com/reference/platforms-configurator
     //
-    "moz:firefoxOptions": {
-        "prefs": {
-            "browser.download.manager.showWhenStarting": false,
-            "browser.download.manager.showAlertOnComplete": false,
-            "browser.helperApps.neverAsk.saveToDisk" : "application/pdf"
-            },
-        },
     capabilities: [{
     
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
@@ -232,20 +224,18 @@ exports.config = {
      * Hook that gets executed _after_ a hook within the suite starts (e.g. runs after calling
      * afterEach in Mocha)
      */
-     afterHook: function (test, context, { error, result, duration, passed, retries }) {
+    afterHook: async function (test, context, { error, result, duration, passed, retries }) {
         if (error)
         {
-          browser.takeScreenshot()
-          AllureReporter.addAttachment("HTML source", browser.getPageSource(),"text/html")
+          await browser.takeScreenshot()
         }
     },
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    afterTest: async function(test, context, { error, result, duration, passed, retries }) {
         if (!passed) {
-            browser.takeScreenshot()
-            AllureReporter.addAttachment("HTML source", browser.getPageSource(),"text/html")
+            await browser.takeScreenshot()
         }
     },
     /**

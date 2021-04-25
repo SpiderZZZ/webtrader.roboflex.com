@@ -5,15 +5,10 @@ import SecurePage from '../pageobjects/secure.page';
 describe('WebTrader Registration page', () => {
     const cryptoRandomString = require('crypto-random-string');
 
-    beforeEach(async () =>
+    before(async () =>
     {
         LoginPage.open()
         await (await LoginPage.btnRegistration).click()
-    })
-
-    afterEach(async () =>
-    {
-        await SecurePage.logoutIfVisible()
     })
 
     it('should register with valid data and login after', async () => {
@@ -41,7 +36,7 @@ describe('WebTrader Registration page', () => {
         await expect(await SecurePage.tourModalTotalStepsCount).toHaveText("14")
         await (await SecurePage.tourModalWindowCloseBtn).click()
 
-        await expect(await SecurePage.chart).toBeVisible();
+        await expect(await SecurePage.chart).not.toBeVisible();
         await expect(SecurePage.logoutLink).toBeClickable()
         await (await SecurePage.logoutLink).click()
         await LoginPage.open()
