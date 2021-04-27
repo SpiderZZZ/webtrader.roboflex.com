@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Tue Apr 27 13:00:22 GMT 2021","Tue Apr 27 13:00:42 GMT 2021","20033","","WebTrader Registration page","","WebTrader Registration page","should register with valid data and login after","should register with valid data and login after",""
+"passed","Tue Apr 27 13:00:22 GMT 2021","Tue Apr 27 13:00:35 GMT 2021","12926","","WebTrader Login page","","WebTrader Login page","should login with valid credentials","should login with valid credentials",""
+"passed","Tue Apr 27 13:00:35 GMT 2021","Tue Apr 27 13:00:39 GMT 2021","4368","","WebTrader Login page","","WebTrader Login page","should does not login with bad credentials","should does not login with bad credentials",""
