@@ -48,7 +48,7 @@
         // "typeRoots": [],                       /* List of folders to include type definitions from. */
         "types": [
             "node",
-            "webdriverio/sync",
+            "webdriverio/async",
             "@wdio/mocha-framework",
             "expect-webdriverio"
         ] /* Type declaration files to be included in compilation. */,

@@ -37,6 +37,11 @@ class RegistrationPage extends Page {
         return $('//div[@class="quick-demo-acc-form__surname"]//input[@class="input__field input__field_mode_text"]')
     }
 
+    get checkLabelConfirmText () 
+    { 
+        return $('#eu-confirm-text')
+    }
+
     get btnSubmitRegistration () 
     { 
         return $('//div[@class="quick-demo-acc-form__button"]//div[@class="button button_type_brand"]')
@@ -50,6 +55,10 @@ class RegistrationPage extends Page {
         await this.countryWithCodeFromSelect(options.coutryWithCodeName)
         await (await this.inputUserPhone).setValue(options.userPhone)
         await (await this.inputUserSurname).setValue(options.userSurname)
+        if(await (await this.checkLabelConfirmText).isClickable())
+        {
+            await (await this.checkLabelConfirmText).click()
+        }
         await (await this.btnSubmitRegistration).click();
     }
 }

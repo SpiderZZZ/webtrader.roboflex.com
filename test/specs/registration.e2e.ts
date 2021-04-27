@@ -1,6 +1,7 @@
 import LoginPage from  '../pageobjects/login.page';
 import RegistrationPage from '../pageobjects/registration.page';
 import SecurePage from '../pageobjects/secure.page';
+import {generateEmail,generateNameString,generatePhone,generateCountryWithPhone} from '../../utils/data.generator'
 
 describe('WebTrader Registration page', () => {
     const cryptoRandomString = require('crypto-random-string');
@@ -12,16 +13,18 @@ describe('WebTrader Registration page', () => {
     })
 
     it('should register with valid data and login after', async () => {
-        const userEmail = `${cryptoRandomString({length: 15})}@mail.cy`
-        const userFirstname = cryptoRandomString({length: 10, characters : 'abcderfgh'})
-        const userSurname = cryptoRandomString({length: 12, characters : 'zjkqwegla'})
+        const userEmail = generateEmail()
+        const userFirstname = generateNameString('abcderfgh',10)
+        const userSurname = generateNameString('zjkqwegla',12)
+        const userCountryWithPhone = generateCountryWithPhone()
+        const userPhone = generatePhone()
         await RegistrationPage.fillRegistrationForm
         (
             {
                 userMail : userEmail,
                 userFirstName : userFirstname,
-                coutryWithCodeName : "Haiti: HT +509",
-                userPhone : cryptoRandomString({length: 10, type: 'numeric'}),
+                coutryWithCodeName : userCountryWithPhone,
+                userPhone : userPhone,
                 userSurname : userSurname
             }
         )
