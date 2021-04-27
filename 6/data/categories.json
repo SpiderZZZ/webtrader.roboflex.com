@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`span[class=\"modal-window__title\"]`) to have text\n                \n                Expected: \"Demo Account details\"\n                Received: \"Registration\"",
+      "children" : [ {
+        "name" : "should register with valid data and login after",
+        "uid" : "71063a622ca79414",
+        "parentUid" : "adae70af8e08b521fb5569f70a763422",
+        "status" : "failed",
+        "time" : {
+          "start" : 1619527390269,
+          "stop" : 1619527407236,
+          "duration" : 16967
+        },
+        "flaky" : true,
+        "newFailed" : true,
+        "parameters" : [ "chrome-90.0.4430.72" ]
+      } ],
+      "uid" : "adae70af8e08b521fb5569f70a763422"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}
