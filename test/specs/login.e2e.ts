@@ -3,7 +3,6 @@ import SecurePage from '../pageobjects/secure.page';
 import {generateEmail,generatePassword} from '../../utils/data.generator'
 
 describe('WebTrader Login page', () => {
-    const cryptoRandomString = require('crypto-random-string');
 
     beforeEach(async () =>
     {
@@ -21,7 +20,7 @@ describe('WebTrader Login page', () => {
     });
 
     it('should does not login with bad credentials', async () => {
-        await LoginPage.login(generateEmail(), generatePassword()); //добавляем цифру специально т.к. бывает рандом без цифры
+        await LoginPage.login(generateEmail(), generatePassword());
         await expect(await LoginPage.errorBadPassword).toBeVisible()
         await expect(await SecurePage.chart).not.toBeExisting();
     });

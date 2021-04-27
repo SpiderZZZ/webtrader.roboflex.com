@@ -4,7 +4,6 @@ import SecurePage from '../pageobjects/secure.page';
 import {generateEmail,generateNameString,generatePhone,generateCountryWithPhone} from '../../utils/data.generator'
 
 describe('WebTrader Registration page', () => {
-    const cryptoRandomString = require('crypto-random-string');
 
     before(async () =>
     {
