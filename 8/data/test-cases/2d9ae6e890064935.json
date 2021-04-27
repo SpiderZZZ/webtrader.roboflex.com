@@ -1,0 +1,118 @@
+{
+  "uid" : "2d9ae6e890064935",
+  "name" : "should register with valid data and login after",
+  "fullName" : "WebTrader Registration page.should register with valid data and login after",
+  "historyId" : "ea891e5255993b6beef335539a658646",
+  "time" : {
+    "start" : 1619529232279,
+    "stop" : 1619529256589,
+    "duration" : 24310
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should register with valid data and login after"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Registration page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 6
+      },
+      "items" : [ {
+        "uid" : "1886c5a948bcf8c8",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/7//#testresult/1886c5a948bcf8c8",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`span[class=\"modal-window__title\"]`) to have text\n                \n                Expected: \"Demo Account details\"\n                Received: \"Registration\"",
+        "time" : {
+          "start" : 1619528422674,
+          "stop" : 1619528442707,
+          "duration" : 20033
+        }
+      }, {
+        "uid" : "71063a622ca79414",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/6//#testresult/71063a622ca79414",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`span[class=\"modal-window__title\"]`) to have text\n                \n                Expected: \"Demo Account details\"\n                Received: \"Registration\"",
+        "time" : {
+          "start" : 1619527390269,
+          "stop" : 1619527407236,
+          "duration" : 16967
+        }
+      }, {
+        "uid" : "a019ed99dee12c16",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/5//#testresult/a019ed99dee12c16",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619329405496,
+          "stop" : 1619329423004,
+          "duration" : 17508
+        }
+      }, {
+        "uid" : "f9deebaa98b13af3",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/4//#testresult/f9deebaa98b13af3",
+        "status" : "failed",
+        "statusDetails" : "Expect $(`#chart`) not to be visible\n                \n                Expected [not]: \"not visible\"\n                Received      : \"visible\"",
+        "time" : {
+          "start" : 1619329098513,
+          "stop" : 1619329121366,
+          "duration" : 22853
+        }
+      }, {
+        "uid" : "7839cc1444e8d725",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/2//#testresult/7839cc1444e8d725",
+        "status" : "broken",
+        "statusDetails" : "this.registrationForm.$ is not a function",
+        "time" : {
+          "start" : 1619296760690,
+          "stop" : 1619296766379,
+          "duration" : 5689
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2d9ae6e890064935.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}

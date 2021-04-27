@@ -1,0 +1,123 @@
+{
+  "uid" : "1f6cd85a8a7c1c8",
+  "name" : "should login with valid credentials",
+  "fullName" : "WebTrader Login page.should login with valid credentials",
+  "historyId" : "7983242f8cb02df9c4c30e6bec5e83be",
+  "time" : {
+    "start" : 1619529232311,
+    "stop" : 1619529243610,
+    "duration" : 11299
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "testClass",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "testMethod",
+    "value" : "should login with valid credentials"
+  }, {
+    "name" : "package",
+    "value" : "WebTrader Login page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.72"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "53e1432e0fe21a03",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/7//#testresult/53e1432e0fe21a03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619528422671,
+          "stop" : 1619528435597,
+          "duration" : 12926
+        }
+      }, {
+        "uid" : "d115b807fca6c37e",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/6//#testresult/d115b807fca6c37e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619527390350,
+          "stop" : 1619527399476,
+          "duration" : 9126
+        }
+      }, {
+        "uid" : "9b6d15a8e7f66374",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/5//#testresult/9b6d15a8e7f66374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619329405577,
+          "stop" : 1619329412489,
+          "duration" : 6912
+        }
+      }, {
+        "uid" : "ce2a872668945285",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/4//#testresult/ce2a872668945285",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619329098340,
+          "stop" : 1619329106670,
+          "duration" : 8330
+        }
+      }, {
+        "uid" : "1b581cf9c33d837f",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/3//#testresult/1b581cf9c33d837f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619328570345,
+          "stop" : 1619328579343,
+          "duration" : 8998
+        }
+      }, {
+        "uid" : "708eaab297fded41",
+        "reportUrl" : "https://SpiderZZZ.github.io/webtrader.roboflex.com/2//#testresult/708eaab297fded41",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619296760728,
+          "stop" : 1619296769591,
+          "duration" : 8863
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "1f6cd85a8a7c1c8.json",
+  "parameterValues" : [ "chrome-90.0.4430.72" ]
+}
